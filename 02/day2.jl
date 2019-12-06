@@ -7,7 +7,6 @@ function part1()
         values[1 + 1] = 12
         values[2 + 1] = 2
 
-        steps = 0
         position = 1
         while values[position] != 99
             if values[position] == 1
@@ -36,7 +35,6 @@ function part2(desired_output)
                 values[1 + 1] = i
                 values[2 + 1] = j
 
-                steps = 0
                 position = 1
                 while values[position] != 99
                     if values[position] == 1
