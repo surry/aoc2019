@@ -11,7 +11,7 @@ function get_position(mode, memory, position)
 end
 
 function part1(inputs)
-    open("test_input.txt") do f
+    open("input.txt") do f
         program = read(f, String)
         values = map((x) -> parse(Int, x) , split(program, ','))
 
